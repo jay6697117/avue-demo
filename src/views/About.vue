@@ -1,7 +1,8 @@
 <template>
-  <div class="about">
+<avue-crud :data="data" :option="option" v-model="form"></avue-crud>
+  <!-- <div class="about">
     <avue-crud :data="data" :option="option" v-model="form"></avue-crud>
-  </div>
+  </div> -->
 </template>
 
 <script>
